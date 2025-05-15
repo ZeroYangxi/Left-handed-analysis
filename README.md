@@ -8,7 +8,7 @@ You can find the exact dataset and description of each item in this link: https:
 To run the analysis, download the dataset from kaggle and set the directory using the setwd() syntax here:
 ```{r}
 library(tidyverse)
-setwd("/Users/riveryu/Documents/Cornell/STSCI6020/final exam/young people dataset") #set your directory of the downloaded data csv here
+setwd("/Users/...") #set your directory of the downloaded data csv here
 all_data <- read.csv("responses.csv")
 # names(all_data)
 ```
